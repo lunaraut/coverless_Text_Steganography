@@ -1,7 +1,6 @@
 This project implements coverless text steganography to securely hide sensitive information in text files before storing them in the cloud. It leverages AI-based techniques for encryption and tokenization to ensure data privacy and prevent unauthorized access.
 
-Key features include:
-Key features include:
+#Key features include:
 
 Secure text embedding: Hides information without relying on image covers.
 
@@ -11,11 +10,11 @@ Cloud-ready: Ensures your sensitive data can be safely uploaded to cloud storage
 
 Progress tracking: Monitors encryption and hiding processes with dynamic progress indicators.
 
-
+#Workflow Diagram
 Input Text → Tokenization → Encryption → Steganography → Hidden Output
 Hidden Output → Decryption → Token Reassembly → Original Text
 
-Technologies
+#Technologies
 
 Python 3.10+
 
@@ -25,7 +24,7 @@ Jupyter Notebook (for demo & experimentation)
 
 Cryptography libraries
 
-Security & Cloud Ready
+#Security & Cloud Ready
 
 Hides text in a coverless manner — no external image needed.
 
